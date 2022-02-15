@@ -15,4 +15,6 @@ There are 2 scripts to test run scenarios:
 
 You can pass 'clean', 'package', or 'local' to the scripts to test that scenario. e.g. `./scripts/run-ios.sh local`
 
+In the current state, I can run each project successfully using `run-ios.sh`, but I can't build `ReactiveTestPackage` using `build-ios.sh`.
+
 ### NOTE: you will need to add/edit your own codesigning keys / app-ids / profiles. You will see how I have it setup in the `.csproj` files, but I've removed my personal/company info.
